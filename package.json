@@ -5,6 +5,10 @@
   "main": "server.js",
   "author": "charles chijuka",
   "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
